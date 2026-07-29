@@ -553,18 +553,21 @@ details.active .details-panel-inner {
         align-items: center; 
     }
 
+/*Cambios realizados  */
     /* Ajustamos el contenedor de la imagen */
     .imgs {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 20px; /* Espacio entre la imagen y el título "¿QUIENES SOMOS?" */
+        margin-bottom: 200px; /* Espacio entre la imagen y el título "¿QUIENES SOMOS?" */
+        
     }
 
     /* Arreglamos los márgenes y la altura de la imagen */
     .imagen-banner {
         margin: 0px; /* Eliminamos el margen de 100px que rompía el diseño */
-        height: 250px; /* Una altura mucho más amigable para pantallas pequeñas */
+        
+        height: 350px; /* Una altura mucho más amigable para pantallas pequeñas */
         width: 90%; /* Para que no pegue completamente de los bordes del teléfono */
     }
 }
