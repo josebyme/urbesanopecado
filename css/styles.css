@@ -550,10 +550,11 @@ details.active .details-panel-inner {
     /* Cambiamos el diseño a una sola columna */
     .about-container {
         flex-direction: column-reverse; /* column-reverse pone la imagen (.imgs) ARRIBA del texto */
-        align-items: center; 
+        align-items: center;    
     }
 
-/*Cambios realizados  */
+
+    /*Cambios realizados  */
     /* Ajustamos el contenedor de la imagen */
     .imgs {
         width: 100%;
@@ -581,6 +582,7 @@ details.active .details-panel-inner {
     justify-content: start;
     align-items: start;
      box-shadow: var(--shadow-soft-sm);
+    
 }
 
 
